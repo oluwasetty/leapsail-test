@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $('.angle-down').click(function(){
-    $(this).next().toggle(function(){
-      }, function(){3000);
+    $(this).next().toggle(3000);
       if ($(this).next().css('display') === "none") {
         alert('us')
       $('#main-features').css('height', '2500px');
