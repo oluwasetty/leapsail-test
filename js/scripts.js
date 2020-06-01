@@ -1,3 +1,5 @@
 $(document).ready(function(){
-  alert('me');
+  $('.angle-down').click(function(){
+    $(this).next().toggle(3000);
+  })
 })
