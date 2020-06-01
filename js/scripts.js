@@ -11,7 +11,7 @@ $(document).ready(function(){
   //       }, 3000);
   // })
     $('.angle-down').toggle(function(){
-    $(this).next().css('display', 'show');
+    // $(this).next().css('display', 'show');
       alert('me')
       $('#main-features').css('height', '5000px');
       $('#features').css('height', '5000px');
