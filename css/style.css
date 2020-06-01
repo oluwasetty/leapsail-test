@@ -247,7 +247,7 @@ body {
     opacity: 1;
 }
 
-#feat-plan {
+.feat-plan {
     padding-left: 30px;
     font: bolder 57px Segoe UI;
     color: #656565;
@@ -413,7 +413,7 @@ body {
     #footer-middle {
         order: 1;
     }
-    .lg-feat-plan,
+    #lg-feat-plan,
     .feature-list {
         display: none;
     }
@@ -452,7 +452,7 @@ body {
         font: 12px Roboto;
         padding: 10px 50px;
     }
-    #feat-plan {
+    .feat-plan {
         padding-left: 25px;
         font: bolder 45px Segoe UI;
     }
@@ -503,7 +503,7 @@ body {
         font: 12px Roboto;
         padding: 10px 50px;
     }
-    #feat-plan {
+    .feat-plan {
         padding-left: 25px;
         font: bolder 45px Segoe UI;
     }
