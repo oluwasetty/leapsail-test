@@ -130,6 +130,7 @@ body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
+    flex-direction: row;
 }
 
 #main div {
@@ -307,6 +308,7 @@ body {
     background: #242424 0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
+    flex-direction: row;
 }
 
 #footer-left {
@@ -348,7 +350,7 @@ body {
     opacity: 1;
     border-left: 5px solid #00D154;
     border-right: 30px solid #FF6700;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .line-divide {
@@ -366,14 +368,90 @@ body {
     margin: 0 25px;
 }
 
+.angle-down {
+    display: none;
+}
 
-/* @media screen and (max-width: 992px) {
-    #material-cover {
+@media screen and (max-width: 1200px) {
+    .angle-down {
+        display: block;
+        text-align: center;
+        padding: 80px;
+    }
+    .angle-down img {
+        height: 30px;
+        width: 30px;
+    }
+    #footer div {
+        margin: 25px;
+    }
+    #footer .logo-img {
+        margin: 0;
+    }
+    #main,
+    #footer {
         flex-direction: column;
     }
-} */
+    #footer {
+        align-items: center;
+        height: 400px;
+    }
+    #footer-middle {
+        order: 1;
+    }
+    #feat-plan,
+    #feature-list {
+        display: none;
+    }
+    #material-cover {
+        flex-direction: column;
+        flex-flow: column;
+    }
+    .material {
+        height: 800px;
+        border-radius: 20px;
+        flex-basis: 33.3333%;
+        padding: 40px 0;
+    }
+    #material-middle {
+        height: 800px;
+        top: 0;
+        background: url('../img/topographic-contour-lines-blue-background_1017-14337.jpg');
+    }
+    .material .title {
+        text-align: center;
+        font: 35px Segoe UI;
+    }
+    .material .price {
+        font: Bold 45px Segoe UI;
+        line-height: 50px;
+    }
+    .material .duration {
+        font: 15px Segoe UI;
+    }
+    .activate {
+        box-shadow: 0px 3px 10px #00000029;
+        border-radius: 30px;
+        font: 12px Roboto;
+        padding: 10px 50px;
+    }
+    #feat-plan {
+        padding-left: 25px;
+        font: bolder 45px Segoe UI;
+    }
+    #features {
+        border-radius: 20px;
+    }
+    #features {
+        height: 1500px;
+        padding: 0;
+    }
+    #main-features {
+        height: 2500px;
+    }
+}
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1500px)and (min-width: 1201px) {
     .material {
         height: 400px;
         border-radius: 20px;
