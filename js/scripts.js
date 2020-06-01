@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.angle-down').click(function(){
     $mdiv = $(this).next();
-    $('div[id^=incometoggle]').not($mdiv).hide()
+    $('.feature-list').not($mdiv).hide()
     $mdiv.toggle(3000);
       if ($mdiv.css('display') === "none") {
       $('#main-features').css('height', '2500px');
