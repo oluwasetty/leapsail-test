@@ -16,9 +16,9 @@ $(document).ready(function(){
       $('#main-features').css('height', '5000px');
       $('#features').css('height', '5000px');
       }, function(){
-    $(this).next().css('display', 'hide');
-        alert('us')
-      $('#main-features').css('height', '2500px');
-      $('#features').css('height', '1500px');
+    // $(this).next().css('display', 'hide');
+    //     alert('us')
+    //   $('#main-features').css('height', '2500px');
+    //   $('#features').css('height', '1500px');
         });
 })
