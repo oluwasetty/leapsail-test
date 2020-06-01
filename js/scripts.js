@@ -5,8 +5,8 @@ $(document).ready(function(){
       $('#main-features').css('height', '2500px');
       $('#features').css('height', '1500px');
   } else {
-      $('#main-features').css('height', '3500px');
-      $('#features').css('height', '2500px');
+      $('#main-features').css('height', '4500px');
+      $('#features').css('height', '4000px');
   }
   })
 })
