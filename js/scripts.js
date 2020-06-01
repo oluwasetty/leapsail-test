@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.angle-down').click(function(){
-    $('.feature-list').css('display', 'none');
+    setTimeout(function() {$('.feature-list').css('display', 'none');}, 10);
     $(this).next().toggle(3000);
       if ($(this).next().css('display') === "none") {
       $('#main-features').css('height', '2500px');
