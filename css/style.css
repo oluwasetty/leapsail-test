@@ -460,11 +460,11 @@ body {
         border-radius: 20px;
     }
     #features {
-        height: 2300px;
+        height: 2000px;
         padding: 0;
     }
     #main-features {
-        height: 3500px;
+        height: 3300px;
     }
     .bronze-feature-list div div,
     .silver-feature-list div div,
