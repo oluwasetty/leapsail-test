@@ -9,6 +9,5 @@ $(document).ready(function(){
       $('#main-features').css('height', '2500px');
       $('#features').css('height', '1500px');
         }, 3000);
-    $()
   })
 })
