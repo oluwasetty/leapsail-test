@@ -4,9 +4,11 @@ $(document).ready(function(){
       if ($(this).next().css('display') === "none") {
       $('#main-features').css('height', '2500px');
       $('#features').css('height', '1500px');
+      $(this).find('img').css('transform', 'rotate(180deg)')
   } else {
       $('#main-features').css('height', '4500px');
-      $('#features').css('height', '4000px');
+      $('#features').css('height', '3700px');
+      $(this).find('img').css('transform', 'rotate(180deg)')
   }
   })
 })
