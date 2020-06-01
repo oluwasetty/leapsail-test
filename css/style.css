@@ -471,6 +471,9 @@ body {
     .gold-feature-list div div {
         flex-basis: 50%;
     }
+    #feature-list{
+      height: 2300px;
+    }
 }
 
 @media screen and (max-width: 1500px)and (min-width: 1201px) {
