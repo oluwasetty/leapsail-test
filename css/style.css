@@ -413,7 +413,7 @@ body {
     #footer-middle {
         order: 1;
     }
-    #feat-plan,
+    .lg-feat-plan,
     .feature-list {
         display: none;
     }
